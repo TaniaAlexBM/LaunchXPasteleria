@@ -1,0 +1,32 @@
+main {
+    display: block;
+}
+
+#pasteleria {
+    text-align: center;
+    color: rgb(201 111 117);;
+}
+
+#pasteleria small {
+    padding-left: 5.4rem;
+}
+
+h2 {
+    text-align: justify;
+}
+
+section {
+    text-align: center;
+    padding: 0 4rem;
+}
+
+section img {
+    width: 20%;
+    height: 20rem;
+    padding: 2rem 1.2rem;
+}
+
+#info {
+    padding: 0 14rem;
+    text-align: justify;
+}

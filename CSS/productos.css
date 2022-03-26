@@ -1,0 +1,17 @@
+main {
+    display: block;
+}
+
+.productos {
+    flex-wrap: wrap;
+}
+
+.productos li {
+    width: 20%;
+    height: 20rem;
+}
+
+.productos li img {
+    width: 100%;
+    height: 100%;
+}

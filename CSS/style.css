@@ -6,7 +6,7 @@
 }
 
 header {
-    background: left/88% url("IMG/nombre.png");
+    background: left/88% url("../IMG/nombre.png");
     background-color: rgb(201 111 117);
     display: flex;
     justify-content: space-between;

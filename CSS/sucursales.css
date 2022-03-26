@@ -1,0 +1,17 @@
+main, ul {
+    display: block;
+    padding: 0;
+}
+
+#intro {
+    text-align: justify;
+    padding: 0 2rem;
+}
+
+#intro ul {
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
