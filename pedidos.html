@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentos: pedidos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="IMG/Momentos.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html"><img src="IMG/Momentos.png" alt=""></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="sucursales.html">Sucursales</a></li>
+                <li><a href="pedidos.html">Pedidos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Realiza tu pedido</h2>
+            <form action="">
+                <h3>Datos del cliente</h3>
+                <div>
+                   <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido"> 
+                </div>
+                <div>
+                    <label for="correo">Correo Electrónico</label>
+                    <input type="email" id="correo">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono">
+                </div>
+                <div>
+                    <select name="entrega" id="entrega">
+                        <option value="domicilio">Envío a Domicilio</option>
+                        <option value="sucursal">Recoger en sucursal</option>
+                    </select>
+                    <h4>Dirección</h4>
+                    <label for="calle">Calle</label>
+                    <input type="text" id="calle">
+                    <label for="numero">Número</label>
+                    <input type="number" id="numero">
+                    <label for="colonia">Colonia</label>
+                    <input type="text" id="colonia">
+                    <p>Entre calles</p>
+                    <input type="text" placeholder="calle 1"> y
+                    <input type="text" placeholder="calle 2">
+                    <h4>Elige una sucursal para recoger</h4>
+                    <select name="sucursales" id="">
+                        <option value="centro">Centro</option>
+                        <option value="coyoacán">Coyoacán</option>
+                        <option value="delValle">Del Valle</option>
+                        <option value="romaNte">Roma Norte</option>
+                        <option value="avToluca">Av. Toluca</option>
+                    </select>
+                </div>
+                <h3>Descripción del pedido</h3>
+                <label for="producto">Producto</label>
+                <select id="producto">
+                    <option value="producto">Pastel</option>
+                    <option value="producto">Cupcakes</option>
+                </select>
+                <div>
+                    <p>Tipo de pan</p>
+                    <input type="checkbox" id="pan">Vainilla
+                    <input type="checkbox" id="pan">Chocolate
+                    <input type="checkbox" id="pan">Red Velvet
+                    <input type="checkbox" id="pan">Arcoiris
+                    <input type="checkbox" id="pan">Marmoleado
+                </div>
+                <div>
+                    <p>Tipo de relleno</p>
+                    <input type="checkbox" id="relleno">Crema con fruta
+                    <input type="checkbox" id="relleno">Chocolate
+                    <input type="checkbox" id="relleno">Crema de mantequilla
+                    <input type="checkbox" id="relleno">Flan
+                </div>
+                <div>
+                    <p>Decoración</p>
+                    <input type="checkbox" id="decoracion">Accesorios
+                    <input type="checkbox" id="decoracion">Chocolates
+                    <input type="checkbox" id="decoracion">Betún de Chocolate
+                    <input type="checkbox" id="decoracion">Fondant
+                    <input type="checkbox" id="decoracion">Fotografía
+                    <input type="checkbox" id="decoracion">Frutas
+                    <input type="checkbox" id="decoracion">Galletas
+                    <input type="checkbox" id="decoracion">Red Velvet
+                    <input type="checkbox" id="decoracion">Sin cobertura
+                    <input type="checkbox" id="decoracion">Textura
+                </div>
+                <p>Notas adicionales</p>
+                <textarea type="area" placeholder="Describe accesorios, fruta, colores y sabores que creas necesario especificar para que tu producto sea lo que esperas."></textarea>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li style="padding-left: 12rem;">WhatsApp</li>
+            <li><img src="IMG/wp.png" alt="whatsapp"> 55 1111 2222</li>
+            <li>Horarios</li>
+            <li id="horarios" style="padding-right: 4rem;"><ul> 
+                <li>lun - vie: 10am a 8pm</li>
+                <li>sáb: 11am - 9pm</li>
+                <li>dom: 11am - 8pm</li>
+            </ul></li>
+            <li><a href="sucursales.html" style="padding-right: 4rem;">Sucursales</a></li>
+            <li><a href="contacto.html" style="padding-right: 12rem;">Contacto</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
