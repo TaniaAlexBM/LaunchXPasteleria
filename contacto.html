@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Momentos: contacto</title>
+    <link rel="stylesheet" href="CSS/contacto.css">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="shortcut icon" href="IMG/Momentos.png" type="image/x-icon">
 </head>
@@ -27,17 +28,18 @@
     <main>
         <h2>Queremos saber tu opinión y sugerencias</h2>
         <form action="">
-            <div>
-                <label for="nombre">Nombre</label>
-                 <input type="text" id="nombre">
-                 <label for="apellido">Apellido</label>
-                 <input type="text" id="apellido"> 
+            <div class="datos">
+                 <input type="text" id="nombre" placeholder="Nombre">
+                 <input type="text" id="apellido" placeholder="Apellido"> 
              </div>
-             <div>
-                 <label for="correo">Correo Electrónico</label>
-                 <input type="email" id="correo">
+             <div id="correo">
+                 <input type="email" id="correo" placeholder="Correo electrónico">
              </div>
              <textarea type="area" placeholder="Escríbenos lo que quieras decirnos. Lo tomaremos en cuenta"></textarea>
+             <div id="botones">
+                <input type="reset" name="" id="reset">
+                <input type="submit" name="" id="submit">
+            </div>
         </form>
     </main>
     <footer>

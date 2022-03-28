@@ -1,0 +1,37 @@
+h2 {
+    text-align: center;
+}
+
+form {
+    width: 80%;
+    margin: auto;
+}
+
+.datos input{
+    width: 49%;
+    margin: 0.4rem 0;
+    padding: 0.2rem;
+}
+
+#correo input{
+    width: 98%;
+    margin: 0.4rem 0;
+    padding: 0.2rem;
+}
+
+#botones {
+    float: right;
+    margin: 0.6rem;
+}
+
+#botones input {
+    padding: 0.2rem;
+    border-radius: 0.4rem;
+    background-color: rgb(201 111 117);
+    color: white;
+}
+
+textarea{
+    width: 90%;
+    padding: 0.2rem;
+}

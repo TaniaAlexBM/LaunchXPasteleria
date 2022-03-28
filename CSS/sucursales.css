@@ -1,17 +1,35 @@
-main, ul {
+main {
+    display: block;
+}
+
+h2 {
+    padding: 0;
+}
+
+#intro ul {
     display: block;
     padding: 0;
 }
 
-#intro {
-    text-align: justify;
-    padding: 0 2rem;
+#intro li {
+    color: black;
+    padding: 0 7rem;
 }
 
-#intro ul {
-    text-align: center;
+#intro {
+    width: 70%;
+    padding: 2rem;
+    border: 1px solid  rgb(209, 133, 138);
+    border-radius: 0.4rem;
+    background-color: rgb(241, 162, 167);
+    margin: auto;
 }
 
 section {
-    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.direccion {
+    width: 40%;
 }

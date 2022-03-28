@@ -4,15 +4,12 @@ main {
 
 #pasteleria {
     text-align: center;
-    color: rgb(201 111 117);;
+    color: rgb(201 111 117);
+    padding-bottom: 1.6rem;
 }
 
 #pasteleria small {
     padding-left: 5.4rem;
-}
-
-h2 {
-    text-align: justify;
 }
 
 section {
@@ -27,6 +24,14 @@ section img {
 }
 
 #info {
-    padding: 0 14rem;
-    text-align: justify;
+    width: 70%;
+    padding: 1.4rem;
+    border: 1px solid  rgb(209, 133, 138);
+    border-radius: 0.4rem;
+    background-color: rgb(241, 162, 167);
+    margin: auto;
+}
+
+#info h3 {
+    color: black;
 }

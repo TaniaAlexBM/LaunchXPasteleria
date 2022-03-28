@@ -50,8 +50,9 @@ form {
 }
 
 h2, h3 {
-    text-align: center;
-    padding-top: 1.2rem;
+    padding-top: 2rem;
+    color: rgb(173, 77, 84);
+    margin: auto;
 }
 
 textarea {

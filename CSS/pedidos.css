@@ -1,0 +1,51 @@
+h2 {
+    text-align: center;
+}
+
+form {
+    width: 100%;
+    margin: auto;
+}
+
+.datos input{
+    width: 48%;
+    margin: 0.4rem 0;
+    padding: 0.2rem;
+}
+
+#numero {
+    width: 10%;
+}
+
+p {
+    display: inline-block;
+    padding: 1rem 2.4rem;
+}
+
+select {
+    width: 30%;
+}
+
+.datos ul {
+    display: block;
+    padding: 0;
+}
+
+.datos li {
+    padding: 0;
+    width: 60%;
+    margin-left: 10%;
+    color: black;
+}
+
+#botones {
+    float: right;
+    margin: 0.6rem;
+}
+
+#botones input {
+    padding: 00.2rem;
+    border-radius: 0.4rem;
+    background-color: rgb(201 111 117);
+    color: white;
+}

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Momentos: pedidos</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/pedidos.css">
     <link rel="shortcut icon" href="IMG/Momentos.png" type="image/x-icon">
 </head>
 <body>
@@ -28,34 +29,36 @@
             <h2>Realiza tu pedido</h2>
             <form action="">
                 <h3>Datos del cliente</h3>
-                <div>
-                   <label for="nombre">Nombre</label>
-                    <input type="text" id="nombre">
-                    <label for="apellido">Apellido</label>
-                    <input type="text" id="apellido"> 
+                <div class="datos">
+                    <input type="text" id="nombre" placeholder="Nombre">
+                    <input type="text" id="apellido" placeholder="Apellido"> 
+                </div>
+                <div class="datos">
+                    <input type="email" id="correo" placeholder="Correo Electrónico">
+                    <input type="tel" id="telefono" placeholder="Teléfono">
                 </div>
                 <div>
-                    <label for="correo">Correo Electrónico</label>
-                    <input type="email" id="correo">
-                    <label for="telefono">Teléfono</label>
-                    <input type="tel" id="telefono">
-                </div>
-                <div>
+                    <p>¿Cómo quieres que te llegue tu producto? </p>
                     <select name="entrega" id="entrega">
                         <option value="domicilio">Envío a Domicilio</option>
                         <option value="sucursal">Recoger en sucursal</option>
                     </select>
+                </div>
+                <div class="datos">
                     <h4>Dirección</h4>
-                    <label for="calle">Calle</label>
-                    <input type="text" id="calle">
-                    <label for="numero">Número</label>
-                    <input type="number" id="numero">
-                    <label for="colonia">Colonia</label>
-                    <input type="text" id="colonia">
+                    <div>
+                        <input type="text" id="calle" placeholder="Calle">
+                        <label for="numero">Número</label>
+                        <input type="number" id="numero">
+                    </div>
+                    <input type="text" id="colonia" placeholder="Colonia">
                     <p>Entre calles</p>
-                    <input type="text" placeholder="calle 1"> y
-                    <input type="text" placeholder="calle 2">
-                    <h4>Elige una sucursal para recoger</h4>
+                    <div>
+                        <input type="text" placeholder="calle 1"> y
+                        <input type="text" placeholder="calle 2">
+                    </div>
+                    
+                    <p>Elige una sucursal para recoger</p>
                     <select name="sucursales" id="">
                         <option value="centro">Centro</option>
                         <option value="coyoacán">Coyoacán</option>
@@ -65,41 +68,51 @@
                     </select>
                 </div>
                 <h3>Descripción del pedido</h3>
-                <label for="producto">Producto</label>
+                <p>Producto</p>
                 <select id="producto">
                     <option value="producto">Pastel</option>
                     <option value="producto">Cupcakes</option>
                 </select>
-                <div>
+                <div class="datos">
                     <p>Tipo de pan</p>
-                    <input type="checkbox" id="pan">Vainilla
-                    <input type="checkbox" id="pan">Chocolate
-                    <input type="checkbox" id="pan">Red Velvet
-                    <input type="checkbox" id="pan">Arcoiris
-                    <input type="checkbox" id="pan">Marmoleado
+                    <ul>
+                        <li><input type="checkbox" id="pan">Vainilla</li>
+                        <li><input type="checkbox" id="pan">Chocolate</li>
+                        <li><input type="checkbox" id="pan">Red Velvet</li>
+                        <li><input type="checkbox" id="pan">Arcoiris</li>
+                        <li><input type="checkbox" id="pan">Marmoleado</li>
+                    </ul>
+                    
                 </div>
-                <div>
+                <div class="datos">
                     <p>Tipo de relleno</p>
-                    <input type="checkbox" id="relleno">Crema con fruta
-                    <input type="checkbox" id="relleno">Chocolate
-                    <input type="checkbox" id="relleno">Crema de mantequilla
-                    <input type="checkbox" id="relleno">Flan
+                    <ul>
+                        <li><input type="checkbox" id="relleno">Crema con fruta</li>
+                        <li><input type="checkbox" id="relleno">Chocolate</li>                   <li><input type="checkbox" id="relleno">Crema de mantequilla</li>
+                        <li><input type="checkbox" id="relleno">Flan</li>
+                    </ul>
                 </div>
-                <div>
+                <div class="datos">
                     <p>Decoración</p>
-                    <input type="checkbox" id="decoracion">Accesorios
-                    <input type="checkbox" id="decoracion">Chocolates
-                    <input type="checkbox" id="decoracion">Betún de Chocolate
-                    <input type="checkbox" id="decoracion">Fondant
-                    <input type="checkbox" id="decoracion">Fotografía
-                    <input type="checkbox" id="decoracion">Frutas
-                    <input type="checkbox" id="decoracion">Galletas
-                    <input type="checkbox" id="decoracion">Red Velvet
-                    <input type="checkbox" id="decoracion">Sin cobertura
-                    <input type="checkbox" id="decoracion">Textura
+                    <ul>
+                        <li><input type="checkbox" id="decoracion">Accesorios</li>
+                        <li><input type="checkbox" id="decoracion">Chocolates</li>
+                        <li><input type="checkbox" id="decoracion">Betún de Chocolate</li>
+                        <li><input type="checkbox" id="decoracion">Fondant</li>
+                        <li><input type="checkbox" id="decoracion">Fotografía</li>
+                        <li><input type="checkbox" id="decoracion">Frutas</li>
+                        <li><input type="checkbox" id="decoracion">Galletas</li>
+                        <li><input type="checkbox" id="decoracion">Red Velvet</li>
+                        <li><input type="checkbox" id="decoracion">Sin cobertura</li>
+                        <li><input type="checkbox" id="decoracion">Textura</li>
+                    </ul>
                 </div>
                 <p>Notas adicionales</p>
                 <textarea type="area" placeholder="Describe accesorios, fruta, colores y sabores que creas necesario especificar para que tu producto sea lo que esperas."></textarea>
+                <div id="botones">
+                    <input type="reset" name="" id="reset">
+                    <input type="submit" name="" id="submit">
+                </div>
             </form>
         </section>
     </main>
